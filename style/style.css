@@ -1,0 +1,119 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* nav style */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-style{
+    margin: 24px 160px;
+}
+.nav-button{
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-color: rgba(0, 106, 80, 1);
+}
+.nav-title{
+    font-weight: bold;
+    font-size: 32px;
+}
+nav button a{
+    text-decoration: none;
+    color: rgba(0, 106, 80, 1);
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+}
+.banner-description{
+    font-weight: bold;
+    font-size: 56px;
+    color: rgba(14, 14, 14, 1);
+}
+.banner{
+    display: flex;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    gap: 70px;
+    padding: 100px;
+}
+.banner-button{
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    padding: 17px 35px ;
+    font-weight: 600;
+    font-size: 18px;
+}
+.piller-heading{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+.piller-container{
+    display: flex;
+    gap: 24px;
+}
+.piller{
+    padding: 24px;
+    
+    stroke: rgba(14, 14, 14, 0.15);
+    border: solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.piller-title{
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 2px;
+   padding-bottom: 2px;
+    color: rgba(14, 14, 14, 1);
+    margin-top: 80px;
+}
+.piller-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision-heading{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.vision-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.clr1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.clr2{
+    background-color: rgba(198, 228, 214, 1);
+}
+.clr3{
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.vision{
+    
+    margin: 24px;
+    border-radius: 16px;
+}
+.vision-style{
+    margin: 24px 160px;
+}
+.vision-container{
+    display: flex;
+}
