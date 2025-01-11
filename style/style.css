@@ -2,92 +2,123 @@
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
+
 /* nav style */
 
-.bg-color{
+.bg-color {
     background-color: rgba(245, 245, 245, 1);
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.header-style{
+
+.header-style {
     margin: 24px 160px;
 }
-.nav-button{
+
+.nav-button {
     font-weight: 600;
     border-radius: 8px;
     font-size: 18px;
     padding: 15px 30px;
     border-color: rgba(0, 106, 80, 1);
 }
-.nav-title{
+
+.nav-title {
     font-weight: bold;
     font-size: 32px;
 }
-nav button a{
+
+nav button a {
     text-decoration: none;
     color: rgba(0, 106, 80, 1);
 }
-.banner-title{
+
+.banner-title {
     font-weight: 800;
     font-size: 24px;
     color: rgba(14, 14, 14, 0.5);
 }
-.banner-description{
+
+.banner-description {
     font-weight: bold;
     font-size: 56px;
     color: rgba(14, 14, 14, 1);
 }
-.banner{
+
+.banner {
     display: flex;
     background-color: rgba(198, 228, 214, 1);
     border-radius: 24px;
     gap: 70px;
     padding: 100px;
 }
-.banner-button{
+
+.banner-button {
     background-color: rgba(0, 106, 80, 1);
     border-radius: 8px;
     color: rgba(255, 255, 255, 1);
-    padding: 17px 35px ;
+    padding: 17px 35px;
     font-weight: 600;
     font-size: 18px;
 }
-.piller-heading{
+
+.piller-heading {
     font-weight: bold;
     font-size: 40px;
     color: rgba(14, 14, 14, 1);
     margin-top: 80px;
     margin-bottom: 32px;
 }
-.piller-container{
+
+.piller-container {
     display: flex;
     gap: 24px;
 }
-.piller{
+
+.piller {
     padding: 24px;
-    
+
     stroke: rgba(14, 14, 14, 0.15);
     border: solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
-.piller-title{
+
+.piller-title {
     font-weight: bold;
     font-size: 40px;
     padding-top: 2px;
-   padding-bottom: 2px;
+    padding-bottom: 2px;
     color: rgba(14, 14, 14, 1);
     margin-top: 80px;
 }
-.piller-description{
+
+.piller-description {
     font-weight: 400;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
-.vision-heading{
+.younus{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    padding: 48px 24px;
+}
+.younus-quote{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.younus-name{
+    font-size: 20;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+
+.vision-heading {
     font-weight: bold;
     font-size: 40px;
     color: rgba(14, 14, 14, 1);
@@ -96,84 +127,102 @@ nav button a{
     margin-bottom: 24px;
     margin-top: 80px;
 }
-.vision-description{
+
+.vision-description {
     font-weight: 400;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
     margin-bottom: 32px;
 }
-.clr1{
+
+.clr1 {
     background-color: rgba(84, 144, 245, 0.2);
 }
-.clr2{
+
+.clr2 {
     background-color: rgba(198, 228, 214, 1);
 }
-.clr3{
+
+.clr3 {
     background-color: rgba(247, 235, 207, 1);
 }
 
-.vision{
+.vision {
     padding: 32px;
     border-radius: 16px;
 }
+
 /* .vision-style{
     margin: 24px 160px;
 } */
-.vision-container{
+.vision-container {
     display: flex;
     justify-content: space-around;
     gap: 24px;
-    
+
 }
-.vision-button{
+
+.vision-button {
     font-size: 16px;
     font-weight: 600;
     padding: 11px 20px;
     border-radius: 8px;
     border-style: none;
 }
-.vision-button-clr1{
+
+.vision-button-clr1 {
     background-color: rgba(84, 144, 245, 0.2);
 }
-.vision-button-clr2{
-background-color: rgba(9, 161, 92, 1);
+
+.vision-button-clr2 {
+    background-color: rgba(9, 161, 92, 1);
 }
-.vision-button-clr3{
-background-color: rgba(255, 194, 57, 1);
+
+.vision-button-clr3 {
+    background-color: rgba(255, 194, 57, 1);
 }
-.news1,.news2{
+
+.news1,
+.news2 {
     display: flex;
     padding: 48px;
     gap: 32px;
 }
-.recent{
+
+.recent {
     font-weight: bold;
     font-size: 40px;
     color: rgba(14, 14, 14, 1);
     margin-bottom: 32px;
 }
-.satelite{
+
+.satelite {
     border-radius: 24px;
-    
+
 }
-.news-title{
+
+.news-title {
     font-weight: bold;
     font-size: 32px;
     color: rgba(14, 14, 14, 0.8);
     margin-bottom: 12px;
 }
-.date-description{
+
+.date-description {
     font-weight: 400;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
-.news1,.news2{
+
+.news1,
+.news2 {
     background-color: rgba(255, 255, 255, 1);
     margin-bottom: 24px;
     border-radius: 24px;
-    
+
 }
-.read-more{
+
+.read-more {
     background-color: rgba(0, 106, 80, 1);
     border-radius: 8px;
     font-weight: 300;
@@ -182,17 +231,64 @@ background-color: rgba(255, 194, 57, 1);
     color: rgba(255, 255, 255, 1);
     border-style: none;
 }
-.donate-title{
+
+.donate-title {
     font-size: 90;
     font-weight: bold;
     margin-top: 80px;
     display: flex;
     justify-content: center;
 }
-.donate-description{
+
+.donate-description {
     font-weight: 400;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
     display: flex;
     text-align: center;
+}
+
+.button-donate {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 40px;
+    border-radius: 18px;
+    gap: 24px;
+    justify-content: space-around;
+    border-style: none;
+}
+
+.donate-button-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
+   
+}
+.white{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.taka {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.input {
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+   
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+    background-color: rgba(255, 255, 255, 1);
+    border-style: none;
+}
+.done-button{
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
 }
