@@ -78,11 +78,12 @@ nav button a {
 .piller-container {
     display: flex;
     gap: 24px;
+    flex: 1;
 }
 
 .piller {
     padding: 24px;
-
+    background-color: rgba(255, 255, 255, 1);
     stroke: rgba(14, 14, 14, 0.15);
     border: solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -90,11 +91,11 @@ nav button a {
 
 .piller-title {
     font-weight: bold;
-    font-size: 40px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     color: rgba(14, 14, 14, 1);
-    margin-top: 80px;
+
 }
 
 .piller-description {
@@ -102,17 +103,25 @@ nav button a {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
-.younus{
+
+.younus {
     background-color: rgba(255, 255, 255, 1);
     border-radius: 16px;
+
+    background-image: url("../quote-bg.png");
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
     padding: 48px 24px;
+    margin-top: 32px;
 }
-.younus-quote{
+
+.younus-quote {
     font-weight: 400;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.8);
 }
-.younus-name{
+
+.younus-name {
     font-size: 20;
     color: rgba(14, 14, 14, 0.8);
 }
@@ -152,14 +161,17 @@ nav button a {
     border-radius: 16px;
 }
 
-/* .vision-style{
-    margin: 24px 160px;
-} */
+
 .vision-container {
     display: flex;
-    justify-content: space-around;
+
     gap: 24px;
 
+}
+
+.vision clr1,
+.vision clr2 {
+    padding: 32px;
 }
 
 .vision-button {
@@ -264,10 +276,11 @@ nav button a {
     justify-content: space-around;
     margin-top: 32px;
     margin-bottom: 32px;
-    
-   
+
+
 }
-.white{
+
+.white {
     background-color: rgba(255, 255, 255, 1);
 }
 
@@ -279,7 +292,7 @@ nav button a {
     margin: auto;
     padding: 20px 40px;
     display: flex;
-   
+
     text-align: center;
     width: 90%;
     font-size: 20px;
@@ -287,8 +300,80 @@ nav button a {
     background-color: rgba(255, 255, 255, 1);
     border-style: none;
 }
-.done-button{
+
+.done-button {
     display: flex;
     justify-content: center;
     padding-top: 32px;
+}
+
+.Newsletter {
+    text-align: center;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    padding: 100px;
+    margin: 24px 160px;
+}
+
+.Subscribe-Newsletter {
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+}
+
+.Subscribe-Newsletter-para {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+
+}
+
+.input-email {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);
+    padding: 14px 40px;
+    border-style: none;
+    border-radius: 5px 0px 0px 5px;
+    width: 60%;
+}
+
+.input-section-ab {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.read-more:hover {
+    background-color: lawngreen;
+}
+
+.nav-button:hover {
+    background-color: lawngreen;
+}
+
+.banner-button:hover {
+    background-color: lawngreen;
+}
+
+.vision-button:hover {
+    background-color: lawngreen;
+}
+.button-donate:hover{
+    background-color: lawngreen;
+}
+
+.bd-icon {
+    background-color: white;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.fix {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 32px;
+}
+.hr{
+    width: 70%;
+    stroke: rgba(14, 14, 14, 0.1);
 }
