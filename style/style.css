@@ -5,6 +5,9 @@
   }
 /* nav style */
 
+.bg-color{
+    background-color: rgba(245, 245, 245, 1);
+}
 nav{
     display: flex;
     align-items: center;
@@ -90,11 +93,14 @@ nav button a{
     color: rgba(14, 14, 14, 1);
     padding-left: 0px;
     margin-left: 0px;
+    margin-bottom: 24px;
+    margin-top: 80px;
 }
 .vision-description{
     font-weight: 400;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
 }
 .clr1{
     background-color: rgba(84, 144, 245, 0.2);
@@ -107,13 +113,86 @@ nav button a{
 }
 
 .vision{
-    
-    margin: 24px;
+    padding: 32px;
     border-radius: 16px;
 }
-.vision-style{
+/* .vision-style{
     margin: 24px 160px;
-}
+} */
 .vision-container{
     display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    
+}
+.vision-button{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border-style: none;
+}
+.vision-button-clr1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-button-clr2{
+background-color: rgba(9, 161, 92, 1);
+}
+.vision-button-clr3{
+background-color: rgba(255, 194, 57, 1);
+}
+.news1,.news2{
+    display: flex;
+    padding: 48px;
+    gap: 32px;
+}
+.recent{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 32px;
+}
+.satelite{
+    border-radius: 24px;
+    
+}
+.news-title{
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.date-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news1,.news2{
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 24px;
+    border-radius: 24px;
+    
+}
+.read-more{
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 13px 26px;
+    color: rgba(255, 255, 255, 1);
+    border-style: none;
+}
+.donate-title{
+    font-size: 90;
+    font-weight: bold;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.donate-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    display: flex;
+    text-align: center;
 }
